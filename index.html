@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Mark Jayson Lanuzo - Web Developer & Freelancer specializing in HTML, CSS, and JavaScript.">
+    <meta name="keywords" content="Mark Jayson Lanuzo, Web Developer, Freelancer, HTML, CSS, JavaScript, Portfolio">
+    <meta name="author" content="Mark Jayson Lanuzo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Jayson Lanuzo - Freelance Web Designer & Website Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Mark Jayson Lanuzo</a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
+            <a href="#contact" class="nav-cta">Get Quote</a>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+            <div class="mobile-menu" id="mobileMenu">
+                <ul>
+                    <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+                    <li><a href="#portfolio" onclick="closeMobileMenu()">Portfolio</a></li>
+                    <li><a href="#services" onclick="closeMobileMenu()">Services</a></li>
+                    <li><a href="#pricing" onclick="closeMobileMenu()">Pricing</a></li>
+                    <li><a href="#testimonials" onclick="closeMobileMenu()">Reviews</a></li>
+                    <li><a href="#faq" onclick="closeMobileMenu()">FAQ</a></li>
+                    <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Animated Background Elements -->
+        <div class="hero-shapes">
+            <div class="floating-shape"></div>
+            <div class="floating-shape"></div>
+            <div class="floating-shape"></div>
+            <div class="floating-shape"></div>
+            <div class="floating-shape"></div>
+            <div class="floating-shape"></div>
+            <div class="floating-shape"></div>
+            <div class="floating-shape"></div>
+        </div>
+        <div class="hero-rings">
+            <div class="pulsing-ring"></div>
+            <div class="pulsing-ring"></div>
+            <div class="pulsing-ring"></div>
+        </div>
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-profile">
+                     <img src="https://uploads.onecompiler.io/43s6xt6ew/43tezgf3h/me-img.png" alt="Mark Morgan - Web Designer"> 
+                </div>
+                <h1>Professional Web Design & Managed Website Services</h1>
+                <p>I create stunning, responsive websites and provide complete website management solutions for businesses ready to grow online.</p>
+                <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="avatar">
+                  <img src="https://uploads.onecompiler.io/43s6xt6ew/43tezgf3h/me-img.png" alt="Mark Jayson Lanuzo">
+                </div>
+                <div>
+                    <h3>Mark Jayson Lanuzo</h3>
+                    <p>With over 8 years of experience in web design and development, I specialize in creating beautiful, functional websites that drive results. My mission is to help businesses establish a strong online presence through custom web solutions, reliable hosting, and ongoing support.</p>
+                    <p>I believe in clean code, user-centered design, and building long-term partnerships with my clients. Every website I create is mobile-responsive, SEO-optimized, and built to convert visitors into customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="portfolio-slider">
+                <div class="portfolio-track">
+                    <div class="card portfolio-item">
+                        <div class="portfolio-image">E-Commerce Store</div>
+                        <h3>Modern E-Commerce Platform</h3>
+                        <p>Custom online store with payment integration, inventory management, and mobile-responsive design.</p>
+                        <a href="#" class="btn btn-secondary">View Live Site</a>
+                    </div>
+                    <div class="card portfolio-item">
+                        <div class="portfolio-image">Restaurant Site</div>
+                        <h3>Restaurant & Catering</h3>
+                        <p>Beautiful restaurant website with online reservations, menu showcase, and location integration.</p>
+                        <a href="#" class="btn btn-secondary">View Live Site</a>
+                    </div>
+                    <div class="card portfolio-item">
+                        <div class="portfolio-image">Business Portal</div>
+                        <h3>Professional Services</h3>
+                        <p>Corporate website with client portal, appointment booking, and comprehensive service showcase.</p>
+                        <a href="#" class="btn btn-secondary">View Live Site</a>
+                    </div>
+                    <div class="card portfolio-item">
+                        <div class="portfolio-image">Creative Agency</div>
+                        <h3>Creative Agency Portfolio</h3>
+                        <p>Dynamic portfolio site with interactive galleries, client testimonials, and project case studies.</p>
+                        <a href="#" class="btn btn-secondary">View Live Site</a>
+                    </div>
+                    <div class="card portfolio-item">
+                        <div class="portfolio-image">E-Commerce Store</div>
+                        <h3>Modern E-Commerce Platform</h3>
+                        <p>Custom online store with payment integration, inventory management, and mobile-responsive design.</p>
+                        <a href="#" class="btn btn-secondary">View Live Site</a>
+                    </div>
+                    <div class="card portfolio-item">
+                        <div class="portfolio-image">Restaurant Site</div>
+                        <h3>Restaurant & Catering</h3>
+                        <p>Beautiful restaurant website with online reservations, menu showcase, and location integration.</p>
+                        <a href="#" class="btn btn-secondary">View Live Site</a>
+                    </div>
+                    <div class="card portfolio-item">
+                        <div class="portfolio-image">Business Portal</div>
+                        <h3>Professional Services</h3>
+                        <p>Corporate website with client portal, appointment booking, and comprehensive service showcase.</p>
+                        <a href="#" class="btn btn-secondary">View Live Site</a>
+                    </div>
+                    <div class="card portfolio-item">
+                        <div class="portfolio-image">Creative Agency</div>
+                        <h3>Creative Agency Portfolio</h3>
+                        <p>Dynamic portfolio site with interactive galleries, client testimonials, and project case studies.</p>
+                        <a href="#" class="btn btn-secondary">View Live Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Website Creation</h3>
+                    <p>Custom-designed, responsive websites built from scratch to match your brand and business goals.</p>
+                </div>
+                <div class="card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Hosting & Domains</h3>
+                    <p>Reliable web hosting and domain management with 99.9% uptime guarantee and daily backups.</p>
+                </div>
+                <div class="card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Website Maintenance</h3>
+                    <p>Regular updates, security monitoring, performance optimization, and content management.</p>
+                </div>
+                <div class="card">
+                    <div class="service-icon">📈</div>
+                    <h3>SEO Optimization</h3>
+                    <p>Search engine optimization to improve your website's visibility and drive organic traffic.</p>
+                </div>
+                <div class="card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Optimization</h3>
+                    <p>Ensure your website looks and works perfectly on all devices and screen sizes.</p>
+                </div>
+                <div class="card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Performance Tuning</h3>
+                    <p>Speed optimization and performance enhancements for better user experience and SEO.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section" id="pricing">
+        <div class="container">
+            <h2>Pricing Plans</h2>
+            <div class="grid grid-3">
+                <div class="card pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">$899</div>
+                    <p>Perfect for small businesses</p>
+                    <ul class="price-list">
+                        <li>5-page responsive website</li>
+                        <li>Basic SEO setup</li>
+                        <li>Contact form integration</li>
+                        <li>1 year hosting included</li>
+                        <li>Mobile optimization</li>
+                    </ul>
+                    <p><strong>Renewal:</strong> $199/year</p>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+                <div class="card pricing-card featured">
+                    <h3>Business</h3>
+                    <div class="price">$1,499</div>
+                    <p>Most popular choice</p>
+                    <ul class="price-list">
+                        <li>10-page responsive website</li>
+                        <li>Advanced SEO optimization</li>
+                        <li>E-commerce functionality</li>
+                        <li>Analytics integration</li>
+                        <li>Social media integration</li>
+                        <li>2 years hosting included</li>
+                    </ul>
+                    <p><strong>Renewal:</strong> $299/year</p>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="card pricing-card">
+                    <h3>Premium</h3>
+                    <div class="price">$2,299</div>
+                    <p>For growing enterprises</p>
+                    <ul class="price-list">
+                        <li>Unlimited pages</li>
+                        <li>Custom functionality</li>
+                        <li>Advanced e-commerce</li>
+                        <li>Priority support</li>
+                        <li>Monthly maintenance</li>
+                        <li>3 years hosting included</li>
+                    </ul>
+                    <p><strong>Renewal:</strong> $499/year</p>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <h2>What Clients Say</h2>
+            <div class="grid grid-3">
+                <div class="card testimonial">
+                    <div class="testimonial-avatar">SM</div>
+                    <div class="stars">★★★★★</div>
+                    <p>"Mark delivered exactly what we needed - a beautiful, fast website that has increased our online sales by 40%. The ongoing support is exceptional!"</p>
+                    <h4>Sarah Mitchell</h4>
+                    <p>Owner, Boutique Fashion Store</p>
+                </div>
+                <div class="card testimonial">
+                    <div class="testimonial-avatar">DJ</div>
+                    <div class="stars">★★★★★</div>
+                    <p>"Professional, responsive, and creative. Mark transformed our outdated website into a modern, mobile-friendly platform that our customers love."</p>
+                    <h4>David Johnson</h4>
+                    <p>Restaurant Manager</p>
+                </div>
+                <div class="card testimonial">
+                    <div class="testimonial-avatar">LR</div>
+                    <div class="stars">★★★★★</div>
+                    <p>"The best investment we made for our business. Mark handles everything - hosting, updates, security - so we can focus on what we do best."</p>
+                    <h4>Lisa Rodriguez</h4>
+                    <p>Consulting Firm CEO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    What are your payment terms?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>I require 50% upfront to begin work, with the remaining 50% due upon project completion. For ongoing services, annual hosting and maintenance fees are billed in advance.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    Do I own my domain and website?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! You own your domain name and all website content. I provide hosting and management services, but you maintain full ownership of your digital assets.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    How long does it take to build a website?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Most websites are completed within 2-4 weeks, depending on complexity and content readiness. I'll provide a detailed timeline during our initial consultation.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    Can I update my website myself?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! I build websites with user-friendly content management systems. I also provide training and documentation, plus ongoing support for any updates you need help with.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    What's included in your maintenance service?
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Maintenance includes security updates, performance monitoring, daily backups, uptime monitoring, minor content updates, and technical support via email and phone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, timeline, and any specific requirements..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Let's Start Your Project</h3>
+                    <p>Ready to take your business online? I'd love to hear about your project and discuss how I can help you succeed.</p>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📧</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            mark@webdesignpro.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📱</div>
+                        <div>
+                            <strong>WhatsApp</strong><br>
+                            +1 (555) 123-4567
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">⏰</div>
+                        <div>
+                            <strong>Response Time</strong><br>
+                            Within 24 hours
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Mark Morgan</h3>
+                    <p>Professional Web Design & Managed Website Services</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <p><a href="#about">About</a></p>
+                    <p><a href="#portfolio">Portfolio</a></p>
+                    <p><a href="#services">Services</a></p>
+                    <p><a href="#pricing">Pricing</a></p>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <p>Website Design</p>
+                    <p>Web Hosting</p>
+                    <p>SEO Optimization</p>
+                    <p>Website Maintenance</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">📘</a>
+                <a href="#" class="social-link">🐦</a>
+                <a href="#" class="social-link">💼</a>
+                <a href="#" class="social-link">📷</a>
+            </div>
+            <p>&copy; 2024 Mark Morgan Web Design. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
